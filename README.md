@@ -55,11 +55,18 @@
   ```
 <br>
 
+## 楼梯模式操作指令
+``` bash
+python3 send.py 10.192.1.2 WF_TRON1A_469 stair --enable true   #开启楼梯模式
+python3 send.py 10.192.1.2 WF_TRON1A_469 stair --enable false   #关闭楼梯模式
+```
+<br>
+
 ## 身高调整指令
   需在站立模式下使用  
   ``` bash
-  python3 send.py 10.192.1.2 WF_TRON1A_469 height --dir up
-  python3 send.py 10.192.1.2 WF_TRON1A_469 height --dir down
+  python3 send.py 10.192.1.2 WF_TRON1A_469 height --dir up   #升高
+  python3 send.py 10.192.1.2 WF_TRON1A_469 height --dir down   #降低
   ```
 <br>
 
